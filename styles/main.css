@@ -171,6 +171,7 @@ footer {
 
 .hero {
   position: relative;
+  opacity: 0.85;
 }
 
 .heroText {
@@ -179,7 +180,8 @@ footer {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: #212427;
+  text-shadow: 2px 2px var(--red);
+  color: white;
 }
 .hero h1 {
   font-size: clamp(2.5rem, 10vw + 1rem, 7rem);
